@@ -83,12 +83,12 @@ int main(int argc, char **argv) {
           silence_threshold);
     }
   }
-  if (release_drop != 10.) {
-    if (aubio_notes_set_release_drop (notes, release_drop) != 0) {
-      errmsg ("failed setting notes release drop to %.2f\n",
-          release_drop);
-    }
-  }
+  // if (release_drop != 10.) {
+  //   if (aubio_notes_set_release_drop (notes, release_drop) != 0) {
+  //     errmsg ("failed setting notes release drop to %.2f\n",
+  //         release_drop);
+  //   }
+  // }
 
   examples_common_process(process_block, process_print);
 

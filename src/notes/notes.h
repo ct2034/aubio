@@ -134,7 +134,7 @@ smpl_t aubio_notes_get_release_drop (const aubio_notes_t *o);
   \return 0 on success, non-zero otherwise
 
 */
-uint_t aubio_notes_set_release_drop (aubio_notes_t *o, smpl_t release_drop);
+uint_t aubio_notes_set_release_drop (aubio_notes_t *o, smpl_t release_drop_level);
 
 #ifdef __cplusplus
 }
